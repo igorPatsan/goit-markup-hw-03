@@ -1,0 +1,219 @@
+:root {
+  --first-title-color: #212121;
+  --title-color-text: #757575;
+  --link-color: #2196f3;
+  --main-white-color: #ffffff;
+}
+body {
+  font-family: Roboto;
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/*----------------- Header-----------------------*/
+.text-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+.link-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--link-color);
+}
+.header-link-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--title-color-text);
+}
+.header-link-contacts:hover,
+.header-link-contacts:focus {
+  color: var(--link-color);
+}
+/*--------------STUDIO-Hiro-----------------*/
+.hiro-s {
+  background-color: #2f303a;
+}
+.hiro-title-s {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+.hiro-button-s {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-white-color);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----SDUDIO---advantages-- Приемущества----*/
+.advantages-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.advantages-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--title-color-text);
+}
+
+/*------- SDUDIO---DO-----*/
+
+.do-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*--------  SDUDIO-----TEAM-----*/
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-profi {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color-text);
+}
+/*----------------portfolio hiro---------------*/
+.hiro-p-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+  cursor: pointer;
+}
+.hiro-p-button:hover,
+.hiro-p-button:focus {
+  color: var(--main-white-color);
+  background-color: var(--link-color);
+}
+
+/*---------------portfolio----проекты--------------------*/
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--first-title-color);
+}
+.project-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--title-color-text);
+}
+
+/*-----------------Footer---------------*/
+.footer-logo-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--main-white-color);
+}
+.web-text {
+  color: var(--link-color);
+}
+.footer-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--main-white-color);
+}
+.footer-link-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-contact:hover,
+.footer-link-contact:focus {
+  color: var(--link-color);
+}
+.footer {
+  background-color: #2f303a;
+}
