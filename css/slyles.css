@@ -16,12 +16,22 @@ a {
   text-decoration: none;
 }
 .conteiner {
+  display: flex;
   wedth: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
+
+.conteinerfooter {
+  wedth: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -165,6 +175,8 @@ a {
   letter-spacing: 0.03em;
   color: var(--first-title-color);
   cursor: pointer;
+  border-radius: 4px;
+  margin: 8px;
 }
 .hiro-p-button:hover,
 .hiro-p-button:focus {
