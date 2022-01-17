@@ -15,6 +15,13 @@ ul {
 a {
   text-decoration: none;
 }
+.conteiner {
+  wedth: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -147,6 +154,7 @@ a {
   color: var(--title-color-text);
 }
 /*----------------portfolio hiro---------------*/
+
 .hiro-p-button {
   font-family: Roboto;
   font-style: normal;
