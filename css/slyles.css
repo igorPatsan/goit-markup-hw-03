@@ -16,14 +16,16 @@ a {
   text-decoration: none;
 }
 .conteiner {
-  display: flex;
   wedth: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
-
+.conteinerbtn {
+  display: inline-flex;
+  margin-left: 145px;
+}
 .conteinerfooter {
   wedth: 1200px;
   padding-left: 15px;
@@ -175,6 +177,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--first-title-color);
   cursor: pointer;
+  display: inline-block;
   border-radius: 4px;
   margin: 8px;
 }
