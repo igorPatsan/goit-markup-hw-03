@@ -23,7 +23,7 @@ a {
   outline: 2px solid red;
 }
 .conteinerbtn {
-  display: inline-flex;
+  display: flex;
   margin-left: 145px;
 }
 .conteinerfooter {
@@ -47,6 +47,9 @@ a {
   margin: -1px;
 }
 /*----------------- Header-----------------------*/
+.navigation {
+  display: flex;
+}
 .text-web {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -62,6 +65,12 @@ a {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #000000;
+}
+.header-list {
+  display: flex;
+}
+.header-list-contact {
+  display: flex;
 }
 .header-link {
   font-weight: 500;
