@@ -22,9 +22,14 @@ a {
   margin: 0 auto;
   outline: 2px solid red;
 }
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
 .conteinerbtn {
   display: flex;
-  margin-left: 145px;
+  margin-left: 475px;
+  margin-top: 144px;
 }
 .conteinerfooter {
   wedth: 1200px;
@@ -49,6 +54,7 @@ a {
 /*----------------- Header-----------------------*/
 .navigation {
   display: flex;
+  align-items: center;
 }
 .text-web {
   font-family: 'Raleway', sans-serif;
@@ -65,12 +71,26 @@ a {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #000000;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 }
 .header-list {
   display: flex;
+  margin-left: 453px;
 }
+.header-item + .header-item {
+  margin-left: 50px;
+}
+
 .header-list-contact {
   display: flex;
+  margin-left: 215px;
+}
+.header-item-contacts {
+  margin-left: 50px;
 }
 .header-link {
   font-weight: 500;
@@ -123,6 +143,12 @@ a {
 }
 
 /*-----SDUDIO---advantages-- Приемущества----*/
+.advantages-list{
+  display: flex;
+}
+.advantages-item{
+  width: calc(100% / 4 - 30px);
+}
 .advantages-title {
   font-weight: bold;
   font-size: 14px;
@@ -140,7 +166,12 @@ a {
 }
 
 /*------- SDUDIO---DO-----*/
-
+.do-list{
+  display: flex;
+}
+.do-item{
+  width: calc(100% / 3 - 30px);
+}
 .do-title {
   font-weight: bold;
   font-size: 36px;
@@ -157,6 +188,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.team-list{
+  display: flex;
+}
+.team-item{
+  width: calc(100% / 4 - 30px);
 }
 .team-name {
   font-weight: 500;
@@ -189,6 +226,8 @@ a {
   display: inline-block;
   border-radius: 4px;
   margin: 8px;
+  min-width: 73px;
+  height: 38px;
 }
 .hiro-p-button:hover,
 .hiro-p-button:focus {
@@ -197,6 +236,16 @@ a {
 }
 
 /*---------------portfolio----проекты--------------------*/
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.project-items{
+  width: calc(100% / 3 - 30px);
+}
+
+}
 .project-title {
   font-weight: bold;
   font-size: 18px;
