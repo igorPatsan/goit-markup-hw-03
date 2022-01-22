@@ -25,14 +25,13 @@ a {
 .header-conteiner {
   display: flex;
   align-items: center;
+  width: 1600px;
+  height: 80px;
 }
-.conteinerbtn {
-  display: flex;
-  margin-left: 475px;
-  margin-top: 144px;
-}
+
 .conteinerfooter {
-  wedth: 1200px;
+  wedth: 1600px;
+  height: 252px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -63,6 +62,7 @@ a {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--link-color);
+  margin-left: 215px;
 }
 .link-logo {
   font-family: 'Raleway', sans-serif;
@@ -71,15 +71,10 @@ a {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #000000;
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 }
 .header-list {
   display: flex;
-  margin-left: 453px;
+  margin-left: 90px;
 }
 .header-item + .header-item {
   margin-left: 50px;
@@ -87,7 +82,7 @@ a {
 
 .header-list-contact {
   display: flex;
-  margin-left: 215px;
+  margin-left: 331px;
 }
 .header-item-contacts {
   margin-left: 50px;
@@ -116,8 +111,14 @@ a {
 }
 /*--------------STUDIO-Hiro-----------------*/
 .hiro-s {
+  width: 1600px;
+  height: 600px;
+  margin-top: 5px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #2f303a;
 }
+
 .hiro-title-s {
   font-weight: 900;
   font-size: 44px;
@@ -127,6 +128,7 @@ a {
   text-transform: uppercase;
   color: var(--main-white-color);
 }
+
 .hiro-button-s {
   font-family: Roboto;
   font-style: normal;
@@ -140,13 +142,27 @@ a {
   color: var(--main-white-color);
   border: 1px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+  margin-left: 700px;
+}
+.hiro-main{}
+
+.hiro-button-s :hover,
+.hiro-button-s :focus {
+  color: var(--main-white-color);
+  background-color: var(--link-color);
 }
 
+
 /*-----SDUDIO---advantages-- Приемущества----*/
-.advantages-list{
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.advantages-list {
   display: flex;
 }
-.advantages-item{
+.advantages-item {
   width: calc(100% / 4 - 30px);
 }
 .advantages-title {
@@ -166,10 +182,14 @@ a {
 }
 
 /*------- SDUDIO---DO-----*/
-.do-list{
+.do {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.do-list {
   display: flex;
 }
-.do-item{
+.do-item {
   width: calc(100% / 3 - 30px);
 }
 .do-title {
@@ -181,6 +201,11 @@ a {
   color: #212121;
 }
 /*--------  SDUDIO-----TEAM-----*/
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+}
 .team-title {
   font-weight: bold;
   font-size: 36px;
@@ -189,10 +214,10 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-list{
+.team-list {
   display: flex;
 }
-.team-item{
+.team-item {
   width: calc(100% / 4 - 30px);
 }
 .team-name {
@@ -212,7 +237,17 @@ a {
   color: var(--title-color-text);
 }
 /*----------------portfolio hiro---------------*/
-
+.hiro-p {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.hiro-p-list {
+  margin-left: 295px;
+  margin-top: 148px;
+}
+.hiro-p-item {
+  display: inline-block;
+}
 .hiro-p-button {
   font-family: Roboto;
   font-style: normal;
@@ -239,13 +274,11 @@ a {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  
 }
-.project-items{
+.project-items {
   width: calc(100% / 3 - 30px);
 }
 
-}
 .project-title {
   font-weight: bold;
   font-size: 18px;
@@ -272,6 +305,16 @@ a {
 }
 .web-text {
   color: var(--link-color);
+  margin-top: 1688px;
+  margin-left: 250px;
+}
+.footer-list {
+}
+.footer-address {
+  margin-left: 215px;
+}
+.footer-item + .footer-item {
+  margin-top: 9px;
 }
 .footer-text {
   font-family: Roboto;
@@ -297,4 +340,6 @@ a {
 }
 .footer {
   background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
 }
