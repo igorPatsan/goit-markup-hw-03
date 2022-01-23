@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 .conteiner {
-  wedth: 1200px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -25,12 +25,10 @@ a {
 .header-conteiner {
   display: flex;
   align-items: center;
-  width: 1600px;
-  height: 80px;
 }
 
 .conteinerfooter {
-  wedth: 1600px;
+  width: 1600px;
   height: 252px;
   padding-left: 15px;
   padding-right: 15px;
@@ -75,6 +73,8 @@ a {
 .header-list {
   display: flex;
   margin-left: 90px;
+  padding: 32px;
+  margin: 0 auto;
 }
 .header-item + .header-item {
   margin-left: 50px;
@@ -82,7 +82,7 @@ a {
 
 .header-list-contact {
   display: flex;
-  margin-left: 331px;
+  margin: 0 auto;
 }
 .header-item-contacts {
   margin-left: 50px;
@@ -145,6 +145,8 @@ a {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-top: 30px;
   margin-left: 700px;
+  width: 200px;
+  height: 50px;
 }
 
 /*-----SDUDIO---advantages-- Приемущества----*/
