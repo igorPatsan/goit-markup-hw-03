@@ -8,9 +8,19 @@ body {
   font-family: Roboto;
   color: #757575;
 }
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -27,13 +37,12 @@ a {
   align-items: center;
 }
 
-.conteinerfooter {
+.footer-conteiner {
   width: 1600px;
-  height: 252px;
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 214px;
   margin: 0 auto;
   outline: 2px solid red;
+  display: block;
 }
 
 .visually-hidden {
@@ -148,17 +157,19 @@ a {
   border: 1px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
-  width: 200px;
-  height: 50px;
+  /*width: 200px;
+  height: 50px;*/
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
   cursor: pointer;
 }
 
 /*-----SDUDIO---advantages-- Приемущества----*/
 .advantages {
   padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 .advantages-list {
   display: flex;
@@ -185,7 +196,7 @@ a {
 /*------- SDUDIO---DO-----*/
 .do {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 66px;
 }
 .do-list {
   display: flex;
@@ -193,6 +204,7 @@ a {
 .do-item {
   width: calc(100% / 3 - 30px);
 }
+
 .do-title {
   font-weight: bold;
   font-size: 36px;
@@ -203,8 +215,8 @@ a {
 }
 /*--------  SDUDIO-----TEAM-----*/
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 122px;
+  padding-bottom: 132px;
 }
 .team-title {
   font-weight: bold;
@@ -238,12 +250,11 @@ a {
 }
 /*----------------portfolio hiro---------------*/
 .hiro-p {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 68px;
+  padding-bottom: 120px;
 }
 .hiro-p-list {
   margin-left: 295px;
-  margin-top: 148px;
 }
 .hiro-p-item {
   display: inline-block;
@@ -295,6 +306,12 @@ a {
 }
 
 /*-----------------Footer---------------*/
+.footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 214px;
+  margin: 0 auto;
+}
 .footer-logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -302,18 +319,21 @@ a {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--main-white-color);
+  margin-left: 215px;
+  display: inline-block;
+  padding-top: 51px;
 }
 .web-text {
   color: var(--link-color);
-  margin-top: 1688px;
-  margin-left: 250px;
 }
 .footer-address {
   margin-left: 215px;
+  padding-top: 17px;
 }
 .footer-item + .footer-item {
   margin-top: 9px;
 }
+
 .footer-text {
   font-family: Roboto;
   font-style: normal;
@@ -335,9 +355,4 @@ a {
 .footer-link-contact:hover,
 .footer-link-contact:focus {
   color: var(--link-color);
-}
-.footer {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 252px;
 }
