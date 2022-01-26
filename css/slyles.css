@@ -183,7 +183,7 @@ a {
   display: flex;
 }
 .advantages-item {
-  width: calc(100% / 4 - 30px);
+  width: calc((100% - 120px) / 4);
   margin-right: 30px;
 }
 .advantages-item:nth-child(4n) {
@@ -215,7 +215,7 @@ a {
   display: flex;
 }
 .do-item {
-  width: calc(100% / 3 - 30px);
+  width: calc((100% - 90px) / 3);
   margin-right: 30px;
 }
 .do-item:nth-child(3n) {
@@ -247,7 +247,7 @@ a {
   display: flex;
 }
 .team-item {
-  width: calc(100% / 4 - 30px);
+  width: calc((100% - 120px) / 4);
   margin-right: 30px;
 }
 .team-item:nth-child(4n) {
@@ -311,7 +311,7 @@ a {
 .project-items {
   width: 370px;
   height: 404px;
-  width: calc(100% / 3 - 30px);
+  width: calc((100% - 90px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
