@@ -39,10 +39,11 @@ a {
 
 .footer-conteiner {
   width: 1600px;
-  height: 214px;
   margin: 0 auto;
   outline: 2px solid red;
-  display: block;
+  /* display: block; */
+  /* padding-top: 51px;
+  padding-bottom: 51px; */
 }
 
 .visually-hidden {
@@ -89,10 +90,15 @@ a {
 .header-list {
   display: flex;
   padding-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
   padding-right: 100px;
   margin: 0 auto;
+}
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .header-item + .header-item {
   margin-left: 50px;
@@ -100,16 +106,12 @@ a {
 
 .header-list-contact {
   display: flex;
-  padding-left: 233px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 0px;
-  margin: 0 auto;
+  padding-left: 212px;
 }
 .header-item-contacts {
   height: 16px;
   justify-content: space-between;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 .header-link {
   font-weight: 500;
@@ -117,6 +119,8 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--first-title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -128,6 +132,8 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--title-color-text);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link-contacts:hover,
 .header-link-contacts:focus {
@@ -136,9 +142,10 @@ a {
 /*--------------STUDIO-Hiro-----------------*/
 .hiro-s {
   width: 1600px;
-  height: 600px;
   background-color: #2f303a;
   margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hiro-title-s {
@@ -150,7 +157,6 @@ a {
   text-transform: uppercase;
   color: var(--main-white-color);
   margin: 0 auto;
-  padding-top: 200px;
   padding-bottom: 30px;
 }
 
@@ -169,8 +175,6 @@ a {
   border: 1px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
-  /*width: 200px;
-  height: 50px;*/
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 32px;
@@ -212,7 +216,7 @@ a {
 /*------- SDUDIO---DO-----*/
 .do {
   padding-top: 94px;
-  padding-bottom: 66px;
+  padding-bottom: 188px;
 }
 .do-list {
   display: flex;
@@ -232,10 +236,10 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-bottom: 50px;
 }
 /*--------  SDUDIO-----TEAM-----*/
 .team {
-  padding-top: 122px;
   padding-bottom: 132px;
 }
 .team-title {
@@ -245,6 +249,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -264,6 +269,8 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .team-profi {
   font-weight: normal;
@@ -272,6 +279,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color-text);
+  padding-bottom: 30px;
 }
 /*----------------portfolio hiro---------------*/
 .hiro-p {
@@ -342,9 +350,9 @@ a {
 /*-----------------Footer---------------*/
 .footer {
   background-color: #2f303a;
-  width: 1600px;
-  height: 214px;
   margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
 .footer-logo-link {
   font-family: 'Raleway', sans-serif;
@@ -354,8 +362,8 @@ a {
   letter-spacing: 0.03em;
   color: var(--main-white-color);
   margin-left: 215px;
+  margin-right: 1240px;
   display: inline-block;
-  padding-top: 51px;
 }
 .web-text {
   color: var(--link-color);
