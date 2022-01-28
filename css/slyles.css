@@ -106,7 +106,7 @@ a {
 
 .header-list-contact {
   display: flex;
-  padding-left: 212px;
+  padding-left: 182px;
 }
 .header-item-contacts {
   height: 16px;
@@ -283,14 +283,19 @@ a {
 }
 /*----------------portfolio hiro---------------*/
 .hiro-p {
-  padding-top: 68px;
-  padding-bottom: 120px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.btn-conteiner {
+  padding-bottom: 50px;
 }
 .hiro-p-list {
   margin-left: 295px;
 }
 .hiro-p-item {
   display: inline-block;
+
+  margin-right: 4px;
 }
 .hiro-p-button {
   font-family: Roboto;
@@ -304,7 +309,7 @@ a {
   cursor: pointer;
   display: inline-block;
   border-radius: 4px;
-  margin: 8px;
+  margin: 0 auto;
   min-width: 73px;
   height: 38px;
 }
@@ -362,7 +367,6 @@ a {
   letter-spacing: 0.03em;
   color: var(--main-white-color);
   margin-left: 215px;
-  margin-right: 1240px;
   display: inline-block;
 }
 .web-text {
