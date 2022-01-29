@@ -262,7 +262,10 @@ a {
 .team-item:nth-child(4n) {
   margin: 0px;
 }
-
+.team-lines {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -270,7 +273,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   padding-bottom: 10px;
 }
 .team-profi {
@@ -280,7 +283,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color-text);
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 /*----------------portfolio hiro---------------*/
 .hiro-p {
@@ -338,12 +341,18 @@ a {
 .project-items:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+.project-lines{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
 .project-title {
   font-weight: bold;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--first-title-color);
+  padding-bottom: 4px;
 }
 .project-text {
   font-weight: normal;
