@@ -298,8 +298,10 @@ a {
 }
 .hiro-p-item {
   display: inline-block;
-
-  margin-right: 4px;
+  margin-right: 8px;
+}
+.hiro-p-item:nth-child(5n) {
+    margin: 0px;
 }
 .hiro-p-button {
   font-family: Roboto;
@@ -344,6 +346,7 @@ a {
 .project-lines{
   padding-top: 20px;
   padding-bottom: 20px;
+  outline: 2px solid red;
 
 }
 .project-title {
