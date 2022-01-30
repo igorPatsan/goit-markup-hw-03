@@ -142,7 +142,7 @@ a {
 }
 /*--------------STUDIO-Hiro-----------------*/
 .hiro-s {
-  width: 1600px;
+  
   background-color: #2f303a;
   margin: 0 auto;
   padding-top: 200px;
@@ -212,15 +212,17 @@ a {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--title-color-text);
+  padding-top: 10px;
 }
 
 /*------- SDUDIO---DO-----*/
 .do {
   padding-top: 94px;
-  padding-bottom: 188px;
+  padding-bottom: 94px;
 }
 .do-list {
   display: flex;
+  margin-left: -30px;
 }
 .do-item {
   width: calc((100% - 90px) / 3);
@@ -237,11 +239,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 /*--------  SDUDIO-----TEAM-----*/
 .team {
-  padding-bottom: 132px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
   font-weight: bold;
@@ -250,10 +253,11 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
+  margin-left: -30px;
 }
 .team-item {
   width: calc((100% - 120px) / 4);
@@ -291,10 +295,10 @@ a {
   padding-bottom: 94px;
 }
 .btn-conteiner {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .hiro-p-list {
-  margin-left: 295px;
+  justify-content: center;
 }
 .hiro-p-item {
   display: inline-block;
@@ -316,7 +320,11 @@ a {
   display: inline-block;
   border-radius: 4px;
   margin: 0 auto;
-  min-width: 73px;
+  /* min-width: 73px; */
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   height: 38px;
 }
 .hiro-p-button:hover,
@@ -329,6 +337,7 @@ a {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
 }
 .project-items {
   width: 370px;
@@ -346,6 +355,8 @@ a {
 .project-lines{
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   outline: 2px solid red;
 
 }
