@@ -298,6 +298,7 @@ a {
   margin-bottom: 50px;
 }
 .hiro-p-list {
+  display: flex;
   justify-content: center;
 }
 .hiro-p-item {
