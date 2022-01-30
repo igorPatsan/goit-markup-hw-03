@@ -189,6 +189,7 @@ a {
 }
 .advantages-list {
   display: flex;
+  justify-content: center;
 }
 .advantages-item {
   width: calc((100% - 120px) / 4);
@@ -223,6 +224,7 @@ a {
 .do-list {
   display: flex;
   margin-left: -30px;
+  justify-content: center;
 }
 .do-item {
   width: calc((100% - 90px) / 3);
@@ -258,6 +260,7 @@ a {
 .team-list {
   display: flex;
   margin-left: -30px;
+  justify-content: center;
 }
 .team-item {
   width: calc((100% - 120px) / 4);
@@ -339,6 +342,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  justify-content: center;
 }
 .project-items {
   width: 370px;
