@@ -142,11 +142,17 @@ a {
 }
 /*--------------STUDIO-Hiro-----------------*/
 .hiro-s {
-  
-  background-color: #2f303a;
-  margin: 0 auto;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image:linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+  url('../images/HiroS.jpg');
 }
 
 .hiro-title-s {
